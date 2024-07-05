@@ -1,11 +1,13 @@
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.testng.annotations.Test;
+import static org.testng.Assert.*;
+
 
 
 public class FactorialTest {
 
     @Test
     public void factorialZeroTest() {
-       assertEquals(1, Factorial.calculateFactorial(0));
+       assertEquals (1, Factorial.calculateFactorial(0));
+
     }
 }
